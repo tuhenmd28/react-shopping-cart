@@ -1,0 +1,43 @@
+a{
+  text-decoration: none;
+  color: initial ;
+}
+
+.productContainer{
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin: 50px 0;
+}
+.productContainer .card img {
+  width: 100%;
+  height: 270px;
+  object-fit: contain;
+  max-width: 90%;
+  margin: auto;
+}
+.productContainer .card{
+  flex: 1 0 300px;
+
+}
+.filters {
+  min-height: 100vh;
+  border-top: 1px solid white;
+  position: absolute;
+  left: 0;
+  width: 93%;
+}
+.cardItem{
+  align-items: center;
+  padding: 3px 10px;
+  justify-content: space-between;
+}
+.cardItem img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+}
+/* .cardItem sapn.name{}
+.cardItem sapn.icon{} */
